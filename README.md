@@ -54,6 +54,15 @@ Add your own assets through the widget settings or replace the empty strings.
 The widget uses the StreamElements `SE_API.counters.get()` helper and the
 `{{img}}`-style field placeholders, which StreamElements replaces at runtime.
 
+## Troubleshooting
+
+- **The widget stays hidden:** confirm the counter name matches the
+  StreamElements counter exactly, including case.
+- **Images do not appear:** set image URLs in the widget fields; the sample
+  `data.js` ships with empty URLs.
+- **There is no sound:** browsers block audio until the overlay is interacted
+  with. Enable audio in the overlay editor and refresh the browser source.
+
 ## License
 
 MIT — see [LICENSE](LICENSE).

@@ -55,6 +55,16 @@ strings vacíos.
 El widget usa el helper `SE_API.counters.get()` de StreamElements y los
 placeholders `{{img}}`, que StreamElements reemplaza en tiempo de ejecución.
 
+## Solución de problemas
+
+- **El widget no aparece:** verificá que el nombre del contador coincida
+  exactamente con el de StreamElements, incluidas las mayúsculas.
+- **Las imágenes no aparecen:** configurá las URLs de las imágenes en los
+  campos del widget; el `data.js` de ejemplo trae URLs vacías.
+- **No se escucha el audio:** los navegadores bloquean el audio hasta que se
+  interactúa con el overlay. Habilitá el audio en el editor y refrescá la
+  fuente del navegador.
+
 ## Licencia
 
 MIT — ver [LICENSE](LICENSE).
