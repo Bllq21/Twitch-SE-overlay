@@ -1,5 +1,7 @@
 # Twitch StreamElements Counter Overlay
 
+**English** · [Español](README.es.md)
+
 A custom [StreamElements](https://streamelements.com/) overlay widget for Twitch,
 originally built for a Stardew Valley stream. When a viewer triggers the
 configured counter command, the overlay shows a random image, a short alert
